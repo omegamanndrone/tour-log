@@ -1,6 +1,6 @@
 {
-    "name": "Tour Log",
-    "short_name": "Tour Log",
+    "name": "Leadline",
+    "short_name": "Leadline",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#00695C",
