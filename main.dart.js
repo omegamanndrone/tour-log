@@ -33163,25 +33163,25 @@ aOR:function aOR(a){this.a=a},
 aOQ:function aOQ(a){this.a=a},
 aWU(a,b){var s
 $label0$0:{s=null
-if(B.oO===b){s=B.Z8
+if(B.oO===b){s=B.Z7
 break $label0$0}if(B.oK===b){s=B.Zc
-break $label0$0}if(B.oM===b){s=B.Zb
-break $label0$0}if(B.oL===b||B.oS===b){s=B.Z5
-break $label0$0}if(B.oN===b){s=B.Z3
-break $label0$0}if(B.oR===b){s=B.E6
-break $label0$0}if(B.oJ===b){s=B.Z6
-break $label0$0}if(B.kP===b){s=B.Z7
-break $label0$0}if(B.oP===b||B.oQ===b){s=B.E5
-break $label0$0}if(B.kQ===b){s=B.Zd
+break $label0$0}if(B.oM===b){s=B.Za
+break $label0$0}if(B.oL===b||B.oS===b){s=B.Z6
+break $label0$0}if(B.oN===b){s=B.Zb
+break $label0$0}if(B.oR===b){s=B.E5
+break $label0$0}if(B.oJ===b){s=B.Zd
+break $label0$0}if(B.kP===b){s=B.Z5
+break $label0$0}if(B.oP===b||B.oQ===b){s=B.E6
+break $label0$0}if(B.kQ===b){s=B.Z9
 break $label0$0}if(b==null){switch(a){case B.c1:s=B.Z4
 break
-case B.fE:s=B.Za
+case B.fE:s=B.Z3
 break
-case B.fD:s=B.E6
+case B.fD:s=B.E5
 break
-case B.fC:s=B.E5
+case B.fC:s=B.E6
 break
-case null:case void 0:s=B.Z9
+case null:case void 0:s=B.Z8
 break}break $label0$0}}return s},
 b3c(a){var s,r,q
 for(s=J.aZ(a),r=0,q=0;s.v();){r+=s.gN(s).b;++q}return r/q},
@@ -33262,8 +33262,9 @@ aWq(a){return a<20?B.c.af(a,1):B.e.k(B.c.a7(a))},
 vt:function vt(a,b,c){this.c=a
 this.a=b
 this.b=c},
-Dc:function Dc(a,b){this.b=a
-this.d=b},
+Dc:function Dc(a,b,c){this.b=a
+this.d=b
+this.e=c},
 hT:function hT(a,b,c,d,e){var _=this
 _.a=a
 _.b=b
@@ -33894,7 +33895,7 @@ return A.j(A.Pr(),$async$Ah)
 case 5:o=c
 p.f3("Tour started")
 p.f3("Trip type: "+A.wL(i.f,i.r))
-p.f3("App version: 97cfd73, built 2026-11-15")
+p.f3("App version: c8f6a4b, built 2026-11-15")
 if(!l)p.f3("Following route: "+a.b)
 n=v.G
 p.f3(n.window.matchMedia("(display-mode: standalone)").matches?"Running from home screen":"Running in browser tab")
@@ -33923,7 +33924,7 @@ s=5
 return A.j(A.zV(p),$async$J6)
 case 5:m=l.b1c(k,j,i,c)
 m.f3("App was closed by iPhone or reloaded; tour resumed")
-m.f3("App version: 97cfd73, built 2026-11-15")
+m.f3("App version: c8f6a4b, built 2026-11-15")
 m.Ta()
 q=m
 s=1
@@ -112759,7 +112760,7 @@ k.push(A.a3("Photos and videos are never removed to save space: they are your tr
 B.b.I(g,k)}g.push(B.a6Y)
 g.push(new A.dc(B.er,o,o,new A.pZ(22,A.B(a).ax.b,!1,o),o))
 g.push(B.a8)
-g.push(A.a3("Version 97cfd73, built 2026-11-15",o,o,o,o,o,o,o))
+g.push(A.a3("Version c8f6a4b, built 2026-11-15",o,o,o,o,o,o,o))
 g.push(A.a3("Everything stays on this phone. Backup (top of the home screen) saves it all to one file.",o,o,o,A.B(a).ok.Q,o,o,o))
 return A.hN(h,o,A.nM(g,B.Ly,o,!1),o)}}
 A.aM6.prototype={
@@ -113657,38 +113658,41 @@ l=j.e
 k=j.d
 if(k!=null&&l!=null&&c.de(l).a<=1e7){if(k)return B.Kk
 return new A.nf(A.b3c(j.r),B.i8,!1)}return A.b31(m,b)},
-aiS(a,b,c){var s,r,q,p,o,n,m,l,k,j=this,i=a.e
-if(a.c>30||i==null||i>b.d)return
+aiS(a,b,c){var s,r,q,p,o,n,m,l,k,j,i=this,h=a.e
+if(a.c>30||h==null||h>b.d)return
 s=a.d
-r=new A.a_(s,i)
-j.e=s
-s=j.f
+r=new A.a_(s,h)
+i.e=s
+s=i.f
 s.push(r)
 if(s.length>3)B.b.hy(s,0)
-q=new A.auD(j)
-switch(j.d){case null:case void 0:s=b.b
-j.d=i<s
-if(i>=s)j.r.push(r)
+q=new A.auD(i)
+switch(i.d){case null:case void 0:s=b.b
+i.d=h<s
+if(h>=s)i.r.push(r)
 break
-case!1:if(s.length>=3&&J.aTg(q.$1(3),new A.aux(b))){j.d=!0
-B.b.S(j.r)
-return}s=j.r
+case!1:p=c.e
+if(!(p!=null&&h<p))s=s.length>=3&&J.aTg(q.$1(3),new A.aux(b))
+else s=!0
+if(s){i.d=!0
+B.b.S(i.r)
+return}s=i.r
 s.push(r)
 B.b.kq(s,new A.auy(a,b))
-p=s.length
-if(p>=6){o=A.W(s).c
-n=A.b3c(A.eT(s,0,A.mT(p-3,"count",t.S),o))
-o=A.eT(s,s.length-3,null,o)
-m=new A.a1(o,new A.auz(),o.$ti.h("a1<aC.E,I>"))
-if(m.cX(0,new A.auA(n,c))||m.cX(0,new A.auB(n,c)))B.b.PS(s,0,s.length-3)}break
-case!0:l=s.length>=2&&J.aTg(q.$1(2),new A.auC(c))
-k=c.d
-if(!l)p=k!=null&&i>k
-else p=!0
-if(p){j.d=!1
-p=j.r
-B.b.S(p)
-B.b.I(p,l?A.eT(s,s.length-2,null,A.W(s).c):A.b([r],t.F9))}break}}}
+o=s.length
+if(o>=6){n=A.W(s).c
+m=A.b3c(A.eT(s,0,A.mT(o-3,"count",t.S),n))
+n=A.eT(s,s.length-3,null,n)
+l=new A.a1(n,new A.auz(),n.$ti.h("a1<aC.E,I>"))
+if(l.cX(0,new A.auA(m,c))||l.cX(0,new A.auB(m,c)))B.b.PS(s,0,s.length-3)}break
+case!0:k=s.length>=2&&J.aTg(q.$1(2),new A.auC(c))
+j=c.d
+if(!k)o=j!=null&&h>j
+else o=!0
+if(o){i.d=!1
+o=i.r
+B.b.S(o)
+B.b.I(o,k?A.eT(s,s.length-2,null,A.W(s).c):A.b([r],t.F9))}break}}}
 A.auD.prototype={
 $1(a){var s=this.a.f
 s=A.eT(s,s.length-a,null,A.W(s).c)
@@ -120822,30 +120826,30 @@ B.E4=new A.Ic(0,"permissive")
 B.Z1=new A.Ic(1,"normal")
 B.Z2=new A.Ic(2,"forced")
 B.dq=new A.XN(null)
-B.iF=new A.Dc(0.491744,0.89408)
+B.ra=new A.aR(12e6)
+B.iF=new A.Dc(0.491744,0.715264,0.13411199999999998)
 B.n8=s([B.E7,B.i9,B.fw],t.Wb)
-B.Z3=new A.hT(B.mb,0.357632,B.iF,8.9408,B.n8)
+B.Z3=new A.hT(B.ra,0.357632,B.iF,8.9408,B.n8)
+B.hm=new A.aR(3e6)
+B.lH=new A.Dc(0.89408,1.34112,null)
+B.hv=s([B.i9,B.fw],t.Wb)
+B.E5=new A.hT(B.hm,0.67056,B.lH,26.8224,B.hv)
 B.rf=new A.aR(6e6)
 B.jE=s([B.ow,B.i9,B.fw],t.Wb)
 B.Z4=new A.hT(B.rf,0.1028888,null,36.01108,B.jE)
-B.ra=new A.aR(12e6)
-B.Z5=new A.hT(B.ra,0.357632,B.iF,4.02336,B.n8)
-B.hm=new A.aR(3e6)
-B.lH=new A.Dc(0.89408,1.34112)
-B.hv=s([B.i9,B.fw],t.Wb)
-B.Z6=new A.hT(B.hm,0.67056,B.lH,20.1168,B.hv)
-B.Z7=new A.hT(B.mf,0.357632,B.iF,20.1168,B.hv)
+B.Z5=new A.hT(B.mf,0.357632,B.iF,20.1168,B.hv)
+B.Z6=new A.hT(B.ra,0.357632,B.iF,4.02336,B.n8)
 B.L4=new A.aR(8e6)
-B.Z8=new A.hT(B.L4,0.1028888,null,6.173328,B.jE)
+B.Z7=new A.hT(B.L4,0.1028888,null,6.173328,B.jE)
 B.Ri=s([B.i9,B.fw,B.ow],t.Wb)
-B.Z9=new A.hT(B.mf,0.22352,null,71.5264,B.Ri)
-B.Za=new A.hT(B.ra,0.357632,B.iF,8.9408,B.n8)
-B.Zb=new A.hT(B.hm,0.257222,null,36.01108,B.jE)
-B.Is=new A.Dc(1.34112,null)
-B.E5=new A.hT(B.hm,0.89408,B.Is,71.5264,B.hv)
+B.Z8=new A.hT(B.mf,0.22352,null,71.5264,B.Ri)
+B.Z9=new A.hT(B.hm,0.67056,B.lH,40.2336,B.hv)
+B.Za=new A.hT(B.hm,0.257222,null,36.01108,B.jE)
+B.Is=new A.Dc(1.34112,null,null)
+B.E6=new A.hT(B.hm,0.89408,B.Is,71.5264,B.hv)
+B.Zb=new A.hT(B.mb,0.357632,B.iF,8.9408,B.n8)
 B.Zc=new A.hT(B.rf,0.1028888,null,15.43332,B.jE)
-B.E6=new A.hT(B.hm,0.67056,B.lH,26.8224,B.hv)
-B.Zd=new A.hT(B.hm,0.67056,B.lH,40.2336,B.hv)
+B.Zd=new A.hT(B.hm,0.67056,B.lH,20.1168,B.hv)
 B.ov=new A.zQ(1,"positions")
 B.ia=new A.Id(null,null,null,null,!1)
 B.Ze=new A.Ig(0,"criticallyDamped")
